@@ -29,10 +29,10 @@ Secondary development interfaces
 Multi-level development interfaces: operating system adaptation interface and system diagnostic interface, link layer interface, network layer interface
 
 Figure 1-1 NearLink_DK_WS63 SparkLink Development Board
-![开发板正面.jpg](doc/figures/%E5%BC%80%E5%8F%91%E6%9D%BF%E6%AD%A3%E9%9D%A2.jpg)
+![board_front.jpg](doc/figures/board_front.jpg)
 
 Fig. 2 NearLink_DK_WS63 StarFlash Development Board Back View
-![开发板背面.png](doc/figures/%E5%BC%80%E5%8F%91%E6%9D%BF%E8%83%8C%E9%9D%A2.png)
+![board_back.png](doc/figures/board_back.png)
 
 
 
