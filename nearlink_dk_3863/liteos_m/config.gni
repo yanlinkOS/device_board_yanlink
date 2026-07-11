@@ -1,4 +1,4 @@
-# Copyright (C) 2024 yanlink Open Source Organization .
+# Copyright (C) 2024 YanLink Open Source Organization .
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -79,44 +79,44 @@ sdk = "sdk"
 
 board_include_dirs = [
   "${ohos_root_path}commonlibrary/utils_lite/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/include/driver",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/include/middleware/utils",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/middleware/chips/ws63/update/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/middleware/chips/ws63/partition/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/middleware/chips/ws63/littlefs",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/middleware/utils/update/inner_include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/middleware/utils/common_headers",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/drivers/chips/ws63/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/drivers/boards/ws63/evb/memory_config/include/product",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/sdk/open_source/lwip/lwip_v2.1.3/src/include/",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/sdk/open_source/lwip/lwip_adapter/liteos_207/src/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/sdk/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/platform/libsec/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/sdk/kernel/osal/include/lock",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/sdk/kernel/osal/include/schedule",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/generic",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/include/driver",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/include/middleware/utils",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/middleware/chips/ws63/update/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/middleware/chips/ws63/partition/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/middleware/chips/ws63/littlefs",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/middleware/utils/update/inner_include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/middleware/utils/common_headers",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/drivers/chips/ws63/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/drivers/boards/ws63/evb/memory_config/include/product",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/sdk/open_source/lwip/lwip_v2.1.3/src/include/",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/sdk/open_source/lwip/lwip_adapter/liteos_207/src/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/sdk/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/linux/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/platform/libsec/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/sdk/kernel/osal/include/lock",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/sdk/kernel/osal/include/schedule",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/generic",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/musl/arch/riscv32",
 
-  "${ohos_root_path}device/soc/yanlink/ws63v106//${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/lib/liteos_libc/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/drivers/interrupt/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106//${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/lib/liteos_libc/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/drivers/interrupt/include",
 
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/drivers/timer/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/drivers/timer/include",
 
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/targets/ws63/include",
 
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/arch/riscv/include",
   "${ohos_root_path}/kernel/liteos_m/utils/",
 
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/cmsis",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/base/include",
-  "${ohos_root_path}device/soc/yanlink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/CMSIS/CMSIS/RTOS2/Include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/compat/cmsis",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/kernel/base/include",
+  "${ohos_root_path}device/soc/YanLink/ws63v106/${sdk}/kernel/liteos/liteos_v208.5.0/Huawei_LiteOS/open_source/CMSIS/CMSIS/RTOS2/Include",
 ]
 
 # Board adapter dir for OHOS components.
-board_adapter_dir = "//device/soc/yanlink/ws63v106/adapter"
+board_adapter_dir = "//device/soc/YanLink/ws63v106/adapter"
 
 # Sysroot path.
 board_configed_sysroot = ""

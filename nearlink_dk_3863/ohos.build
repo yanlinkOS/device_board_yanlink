@@ -2,7 +2,7 @@
   "parts": {
     "device_nearlink_dk_3863": {
       "module_list": [
-        "//device/soc/yanlink/ws63v106:ws63v106"
+        "//device/soc/YanLink/ws63v106:ws63v106"
       ]
     }
   },
